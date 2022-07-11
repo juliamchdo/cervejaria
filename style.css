@@ -1,0 +1,82 @@
+body{
+    background-color: #3b3739;
+}
+h2:not(form h2){
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    color: #d17a32;
+}
+/*Barra de navegação*/
+.navbar{
+    background-color: #d17a32;
+}
+
+.navbar-nav{
+    font-size: 22px;
+    margin-right: 55px;
+}
+.nav-link{
+    margin-left: 40px;
+}
+.navbar-brand{
+    font-size: 35px;
+    padding-left: 25px;
+}
+/*Catálogo*/
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/*Contato*/
+form h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-bottom: 4px solid;
+    color: #3b3739;
+}
+#contato{
+    background-color: #d17a32;
+    padding-bottom: 15px;
+}
+.formulario-conteudo{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/*rodape*/
+footer{
+    background-color: #9b4805;
+}
+.btn-primary{
+    background-color: #3b3739;
+    padding: 20px;
+    border-color: #3b3739;
+}
+.btn-primary:hover{
+    background-color: #6b6166;
+}
+
+
